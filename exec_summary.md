@@ -1,11 +1,16 @@
-An executive summary:
-- The goal is to emulate an ontological thought experiment similar to that [posted](https://twitter.com/NomeDaBarbarian/status/1338878975838285825) by Twitter user Moon-faced Assassin of Joy. It is an attempt at creating models that may potentially determine a method of categorization we as humans have overlooked.
+## Executive summary:
+There were multiple goals set for this project at its inception but all of these changed slightly as time progressed.
+- The primary goal is to create recipe steps by using natural language processing on a corpus of recipes.
+- Along the way, the project took a detour to analyze categorical descriptors of different recipes. This was to avoid  is to emulate an ontological thought experiment similar to that [posted](https://twitter.com/NomeDaBarbarian/status/1338878975838285825) by Twitter user Moon-faced Assassin of Joy. It is an attempt at creating models that may potentially determine a method of categorization we as humans have overlooked.
 - The data was acquired from the spoonacular API consisting of recipes and their:
+    - description of the dish
     - ingredients
-    - preparation steps
+    - preparation instructions
     - nutritional information
-- What are your metrics? TODO: determine a metric 
-- What were your findings? TODO: run with more data and find something interesting
+There were plenty of difficulties with the api that I came across when attempting to clean and model the data. 
+- What are your metrics?
+    - The pupose of this experiment is to create and analyze an unsupervised model. As it is a natural language unsupervised model, the best metric for it is "does it make sense, or is it interpretable to a normal human?"
+- What were your findings?
 - The primary risk associated with such a project is that of wasting ~~time~~ money and money. The nature of this project is research, and as such, profit made off of conclusions would come from further application, not the models themselves. 
 ---
 Summarize your statistical analysis, including:
