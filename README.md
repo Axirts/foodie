@@ -3,12 +3,12 @@
 ## Abstract
 Cooking is an art and art takes creativity. Machines aren't "creative" in the same sense as we are, but they certainly have the ability to mimic human creativity. Or are they? [Some](https://www.thetrumpet.com/8960-the-mystery-of-human-creativity-explained) claim that creativity is unique to humans. California State University, [Northridge cites Robert E. Franken](http://www.csun.edu/~vcpsy00h/creativity/define.htm) in defining creativity "as the tendency to generate or recognize ideas, alternatives, or possibilities that may be useful in solving problems, communicating with others, and entertaining ourselves and others." Based on this definition, machines can be just as creative as humans and more efficiently at it as well as they can analyze much more information than we can. There are multiple purposes of this project:
 
-- Gather, clean, and understand recipe data
-- Take a statistical approach to describe the data
-- Make a model that can parse enough information from said data to understand the science behind cooking
-- Make a model that emulates human creativity by attempting to create new recipes
+- Gather, clean, and understand recipe data (recognize ideas)
+- Take a statistical approach to describe the data (communicate with others)
+- Make a model that can parse enough information from said data to understand the science behind cooking (recognize ideas)
+- Make a model that emulates human creativity by attempting to create new recipes (solve a problem and entertain)
     - This can be in the form of applying deep learning to modify existing recipes or create them from scratch based on an understanding of how cooking works
-- Demonstrate machines as creative entities
+- Demonstrate machines as creative entities (be human)
 
 ## Business Application
 As a research project, the goal I set forth with was to test combinations of data analysis and modeling techniques to achieve results a human can appreciate. The business implication of successfully creating such a model are only limited by the entrepreneurial skills of whoever uses it. For example, the model could be used to:
@@ -19,7 +19,6 @@ Furthermore, the models are interpreting plain (English) language instructions a
 
 ## File Structure
 
-```
 root
 │   README.md
 │   exec_summary.md    
@@ -44,7 +43,7 @@ root
 └───visualizations
     │   vis1
     │
-```
+
 
 ## Resources
 - Data:
