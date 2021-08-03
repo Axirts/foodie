@@ -19,9 +19,10 @@ Furthermore, the models are interpreting plain (English) language instructions a
 
 ## File Structure
 
+```
 root
 │   README.md
-│   exec_summary.md    
+│   exec_summary.md
 │
 └───code
 │   │   1_collection.ipynb
@@ -43,7 +44,7 @@ root
 └───visualizations
     │   vis1
     │
-
+```
 
 ## Resources
 - Data:
