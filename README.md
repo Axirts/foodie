@@ -14,7 +14,7 @@ Cooking is an art and art takes creativity. Machines aren't "creative" in the sa
 As a research project, the goal I set forth with was to test combinations of data analysis and modeling techniques to achieve results a human can appreciate. The business implication of successfully creating such a model are only limited by the entrepreneurial skills of whoever uses it. For example, the model could be used to:
    - propose new restaurant menus for "fusion" cuisine
    - adapt existing recipes to specific diets
-   - 
+   - change text in other mediums to stylistically match another's
 Furthermore, the models are interpreting plain (English) language instructions and as such, could be applied to more than just recipes. 
 
 ## File Structure
@@ -22,7 +22,7 @@ Furthermore, the models are interpreting plain (English) language instructions a
 ```
 root
 │   README.md
-│   exec_summary.md
+│   summary.md
 │
 └───code
 │   │   1_collection.ipynb
